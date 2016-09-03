@@ -12,6 +12,7 @@ $ja_font : "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ
 $blue1 : #42b9d0;
 $blue2 : #339fd1;
 $gray_blue : #eaf2f4;
+$gray:#626262;
 
 header{
 
@@ -201,6 +202,9 @@ header{
   }
   // min-width: 550px
 }
+
+
+
 
 #service_area{
 
@@ -472,7 +476,7 @@ div#sub_cover{
     font-size:1.5rem;
     line-height:24px;
     font-weight:normal;
-    font-family:"Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:Arial;
     
 }
 
@@ -505,13 +509,13 @@ div#contents{
   border-bottom-color:$blue1;
 }
 
-th td{
+th , td{
   border-bottom-color:$gray_blue;
   border-bottom-style:solid;
   border-bottom-width:1px;
   border-collapse:collapse;
   font-size:1.4rem;
-  color:$gray_blue;
+  color:$gray;
   line-height:22.4px;
   text-align:left;
   display:table-cell;
@@ -544,25 +548,24 @@ span{
   margin-bottom:10px;
 }
 
-div#sidebar .three columns{
+div#sidebar .threecolumns{
   display:block;
   margin-left:4%;
   float:left;
 }
 
-.pc_sidemenu{
   h3{
     color:$blue1;
     font-size:1.4rem;
     font-weight:bold;
     letter-spacing:2px;
     background-color:$gray_blue;
+    text-align:left;
     padding:15px;
-    text-align:center;
+    margin-bottom:0;
   }
-  .contents{
-    margin-bottom:50px;
-  }
+
+
   .contents_menu{
     background-image:url("../images/side_arrow.png");
     background-position:8px 50%;
@@ -576,11 +579,13 @@ div#sidebar .three columns{
     border-bottom-width:1px;
     text-align:left;
     padding:10px 10px 10px 20px;
+    margin-bottom:0;
     }
+    
     a{
       text-decoration:none;
     }
-}
+
 
 @media screen and (-webkit-min-device-pixel-ratio:2),
                     (min-resolution: 2dppx){
@@ -595,3 +600,7 @@ div#sidebar .three columns{
   }
 }
 
+.fb-page{
+  width:211px;
+  height:300px;
+}

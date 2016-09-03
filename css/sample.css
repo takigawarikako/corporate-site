@@ -257,7 +257,7 @@ div#sub_cover {
   font-size: 1.5rem;
   line-height: 24px;
   font-weight: normal;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: Arial; }
 
 @media (max-width: 550px) {
   div#sub_cover {
@@ -279,13 +279,13 @@ div#contents {
   border-bottom-width: 3px;
   border-bottom-color: #42b9d0; }
 
-th td {
+th, td {
   border-bottom-color: #eaf2f4;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-collapse: collapse;
   font-size: 1.4rem;
-  color: #eaf2f4;
+  color: #626262;
   line-height: 22.4px;
   text-align: left;
   display: table-cell;
@@ -313,22 +313,22 @@ span {
   padding-bottom: 5px;
   margin-bottom: 10px; }
 
-div#sidebar .three columns {
+div#sidebar .threecolumns {
   display: block;
   margin-left: 4%;
   float: left; }
 
-.pc_sidemenu h3 {
+h3 {
   color: #42b9d0;
   font-size: 1.4rem;
   font-weight: bold;
   letter-spacing: 2px;
   background-color: #eaf2f4;
+  text-align: left;
   padding: 15px;
-  text-align: center; }
-.pc_sidemenu .contents {
-  margin-bottom: 50px; }
-.pc_sidemenu .contents_menu {
+  margin-bottom: 0; }
+
+.contents_menu {
   background-image: url("../images/side_arrow.png");
   background-position: 8px 50%;
   background-repeat: no-repeat;
@@ -340,8 +340,10 @@ div#sidebar .three columns {
   border-bottom-color: #eaf2f4;
   border-bottom-width: 1px;
   text-align: left;
-  padding: 10px 10px 10px 20px; }
-.pc_sidemenu a {
+  padding: 10px 10px 10px 20px;
+  margin-bottom: 0; }
+
+a {
   text-decoration: none; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
@@ -350,5 +352,8 @@ div#sidebar .three columns {
 @media (max-width: 550px) {
   .pc_sidemenu {
     display: none; } }
+.fb-page {
+  width: 211px;
+  height: 300px; }
 
 /*# sourceMappingURL=sample.css.map */
