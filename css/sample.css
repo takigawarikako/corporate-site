@@ -251,13 +251,15 @@ div#sub_cover {
   padding: 80px 0;
   background-image: url("../images/sub_cover.jpg");
   background-size: cover;
-  display: block;
-  text-align: center;
-  color: white;
-  font-size: 1.5rem;
-  line-height: 24px;
-  font-weight: normal;
-  font-family: Arial; }
+  display: block; }
+  div#sub_cover h2 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: Arial;
+    letter-spacing: 0.2rem; }
 
 @media (max-width: 550px) {
   div#sub_cover {
@@ -273,11 +275,14 @@ div#contents {
   font-size: 2rem;
   letter-spacing: -1px;
   line-height: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   padding-bottom: 20px;
   border-bottom-style: solid;
   border-bottom-width: 3px;
   border-bottom-color: #42b9d0; }
+
+.newsrelease {
+  margin-bottom: 20px; }
 
 th, td {
   border-bottom-color: #eaf2f4;
